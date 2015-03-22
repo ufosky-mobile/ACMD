@@ -44,4 +44,32 @@
 	* facebook的[origami](https://facebook.github.io/origami/)，支持输出iOS、Android和js。2.0支持导出code
 	* relativewave的[form](www.relativewave.com/form)
 
+* 关于iOS架构
+	* [VIPER](http://www.objc.io/issue-13/viper.html)：普遍用下来反映不佳，很有可能造成过于复杂的代码
+	* [MVVM](http://www.objc.io/issue-13/mvvm.html)：是不错的思路
+	* [KVO](http://nshipster.com/key-value-observing/)或者[binding](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CocoaBindings/CocoaBindings.html)：在大规模相关数据要同时更新ui的时候才实用
+
 ### 15/03/2015 - 21/03/2015
+* native app vs. web mobile app
+	* 性能差距还是原生应用仍然存在的原因，另外iOS和Android对html5开发不友好
+	* google的[polymer](https://www.polymer-project.org/0.5/)是不错的web mobile app开发框架
+
+* iOS app本地数据存储
+	* core data还是太重了，持久层和其它语言的框架比，还是诡异的很
+	* [fmdb](https://github.com/ccgus/fmdb)：就是一个wrapper，速度快，像jdbc
+	* [couchdb](http://couchdb.apache.org/)：document型数据库
+	* [realm](http://realm.io/)：另外一个存储方案
+	
+* SaaS厂商
+	* [parse.com](https://www.parse.com)：
+		* api跟core data概念差不多，数据库完全透明，直接对象存取。
+		* 提供[local datastore](http://blog.parse.com/2014/12/09/parse-local-datastore-for-ios/)
+		* 新的[parse sdk](https://www.parse.com/tutorials/integrating-facebook-in-ios)强制使用fb的sdk，用local database会crash
+		* 做prototype很适合
+		* 国内可以用
+	* [LeanCloud](https://leancloud.cn/)：国内的parse，无限量push， api兼容parse
+
+* ReactiveCocoa
+	* Android那边有 [RxJava](https://github.com/ReactiveX/RxJava)、[AOP](http://fernandocejas.com/2014/08/03/aspect-oriented-programming-in-android/)、[IoC](http://en.wikipedia.org/wiki/Inversion_of_control)
+
+### 22/03/2015 - 28/03/2015

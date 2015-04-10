@@ -73,3 +73,39 @@
 	* Android那边有 [RxJava](https://github.com/ReactiveX/RxJava)、[AOP](http://fernandocejas.com/2014/08/03/aspect-oriented-programming-in-android/)、[IoC](http://en.wikipedia.org/wiki/Inversion_of_control)
 
 ### 22/03/2015 - 28/03/2015
+
+### 29/03/2015 - 04/04/2015
+
+### 5/04/2015 - 11/04/2015
+
+	
+* 关于Javascript
+	* Javascrip [乱象](http://www.allenpike.com/2015/javascript-framework-fatigue/)：层出不穷的新framework，让web前端开发很难找到可以长久维护的framework. 
+	* Google 的 [AngularJS](https://angularjs.org): 本来很有潜力一统天下，但AngularJS 2.0明确指出不和之前的版本兼容.
+	* Facebook 的 [ReactJS](https://facebook.github.io/react/) :最近比较有潜力的一个Javascrip framework.
+* 关于ipa反向工程
+	* 用otool（[教程](http://www.osnews.com/story/10366/A_Brief_Tutorial_on_Reverse_Engineering_OS_X)） 把binary拆开，可以看到class method，还可以dump return值
+	* method swizzling ([教程](http://nshipster.com/method-swizzling/))
+	* swift 会对class name混码。
+* 关于 meetup
+	* [Cocoahead](http://www.melbournecocoaheads.com): Melbourne地区的iOS dev集会。
+* 关于 Architect
+	* Architect的特质	 
+		* 需要不断的学习一些不喜欢的东西。比如[sharepoint](https://products.office.com/en-us/sharepoint/collaboration),[dynamic](http://www.microsoft.com/en-us/dynamics/default.aspx)
+		* 需要很多经验 [client server](http://en.wikipedia.org/wiki/Client–server_model) , [DevOps](http://en.wikipedia.org/wiki/DevOps)
+		* 需要语言，表达，灵敏的思维
+	* Architect的成长
+		* 开发->lead->架构系统
+		* 学习别人考虑问题的角度
+		* 跳出dev的思维，从全局思考
+	* Architect的技能
+		* 写文档，类图，分层，通信，安全，部署，white board
+		* 与其他的architect team member分享，寻找问题
+	* 主流系统模块	
+		* client, [restful](http://en.wikipedia.org/wiki/Representational_state_transfer), [ioc](http://en.wikipedia.org/wiki/Inversion_of_control), [unit test](http://en.wikipedia.org/wiki/Unit_testing), [auth](http://en.wikipedia.org/wiki/Authentication)
+	* 老系统模块
+		* message hub，[wsdl](http://en.wikipedia.org/wiki/Web_Services_Description_Language), [xml](http://en.wikipedia.org/wiki/XML)
+	
+
+   
+
